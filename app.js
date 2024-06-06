@@ -90,3 +90,4 @@ function myFindIndex(arr, callback) {
 myFindIndex(scores, function(score) {
 	return score !== 0 && score % 2 == 0;
 });
+
